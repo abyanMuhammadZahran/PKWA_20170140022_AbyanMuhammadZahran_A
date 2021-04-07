@@ -1,0 +1,46 @@
+.profile img{
+    width: 300px;
+    border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.profile{
+    text-align: center;
+}
+
+.blue{
+    color: #282846;
+}
+
+.profile .logo-ig{
+    width: 20px;
+}
+
+.biodata .table, tr, td, th {
+    border: 1px solid black;
+}
+
+.information{
+    border: 1px solid black;
+}
+
+/* Responsive */
+/* Dekstop */
+@media only screen and (min-width: 992px) {
+    .profile{
+        color: red;
+    }
+
+    .information{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+/* Tablet / Ipad */
+
+
